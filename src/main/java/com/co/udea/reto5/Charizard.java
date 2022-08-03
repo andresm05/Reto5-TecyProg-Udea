@@ -13,8 +13,8 @@ public class Charizard extends Pokemon {
     }
 
     @Override
-    public Pokemon evolucionar() {
-        return null;
+    public Pokemon evolucionar() throws NoEvolucionaException {
+        throw new NoEvolucionaException();
     }
 
     @Override
